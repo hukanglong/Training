@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activitys.OfficialDateilActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/toolbar_off">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:text="123"
+            android:id="@+id/title_off"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <WebView
+        android:id="@+id/web_off"
+        android:layout_below="@id/toolbar_off"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+</RelativeLayout>

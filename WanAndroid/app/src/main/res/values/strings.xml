@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WanAndroid</string>
+    <string name="nv_paly">玩Android</string>
+    <string name="nv_know">知识体系</string>
+    <string name="nv_like">收藏</string>
+    <string name="nv_keyword">关键字</string>
+    <string name="nv_about">关于我们</string>
+    <string name="nv_setting">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">首页</string>
+    <string name="know">知识体系</string>
+    <string name="official">公众号</string>
+    <string name="navigation">导航</string>
+    <string name="project">项目</string>
+    <string name="author">作者</string>
+</resources>

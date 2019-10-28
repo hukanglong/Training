@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/play"
+        android:icon="@drawable/select_play"
+        android:title="@string/nv_paly"
+        android:checked="true"
+        android:checkable="true"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/know"
+        android:icon="@drawable/select_know"
+        android:title="@string/nv_setting"
+        android:checkable="true"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/like"
+        android:icon="@drawable/select_like"
+        android:title="@string/nv_like"
+        android:checkable="true"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/keyword"
+        android:icon="@drawable/select_keyword"
+        android:title="@string/nv_about"
+        android:checkable="true"
+        app:showAsAction="ifRoom"/>
+
+</menu>
